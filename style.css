@@ -11,6 +11,37 @@ a{
     margin: 0%;
     font-family: 'Roboto Slab', serif;
 }
+.tomato{
+    color: tomato;
+}
+.website-button{
+    font-size: 20px;
+    margin-top: 50px;
+    color: tomato;
+    border: none;
+    background: transparent;
+}
+.website-button a{
+
+    color: white; 
+    border: 5px solid white;
+    padding: 15px 45px;
+    background-color:tomato;
+    font-size: 20px;
+   
+}
+
+.website-button a:hover{
+
+    color: tomato; 
+    border-radius: 30px;
+    border: 2px solid tomato;
+    padding: 15px 45px;
+    border: 5px solid tomato;
+    background: transparent;
+    transition: 0.5s;
+    font-size: 20px;
+}
 
 /* ----------------------------- header-section-start------------------------------ */
 
@@ -23,11 +54,13 @@ a{
     justify-content: space-around;
     margin-top: 3%;
 }
-.header-name{
+.header-name a:hover{
+    color: tomato;
+    transition: 0.5s ease-in-out;
 
 }
-.header-item{
-
+.header-text p{
+    text-align: left;
 }
 .header-item ul{
     list-style: none;
@@ -39,6 +72,11 @@ a{
 .header-item a{
     font-size: 20px;
     font-weight: 800;
+}
+.header-item a:hover{
+    color: tomato;
+    transition: 0.5s ease-in-out;
+   
 }
 
 /*-----------------------------header-banner-section-start------------------------ */
@@ -61,16 +99,6 @@ a{
     margin-top: 30px;
     margin-bottom: 30px;
     
-}
-.web-site-button{
-    padding: 15px 30px;
-    background-color: black;
-    border: none;
-}
-.web-site-button a{
-    color: white;
-    font-size: 18px;
-    border: 5px solid black;
 }
 
 .fa-arrow-right{
@@ -150,4 +178,180 @@ a{
     left:1150px;
 }
 
+/* -------------------------------blog-section-start------------------------------- */
+#blog-section{
+    margin-top: 20%;
+   
+}
+#blog-section>h1{
+    font-size: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+   
+}
+.full-blog{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.space p{
+    width: 45%;
+    background-image: linear-gradient(to right,tomato, rgb(236, 153, 141));
+    padding: 5px 40px;
+    border-radius: 20px;
+    margin-top: 10px; 
+
+}
+.right-side{
+    width: 80%;
+       
+}
+
+.right-side h1,p{
+
+    text-align: justify;
+    margin-top: 10px;
+
+}
+.right-side p{
+    margin-top: 10px;
+    text-align: left;
+}
+.bolg-text p{
+    text-align: justify;
+}
+.space-0{
+    word-spacing: 125px;   
+}
+.space-1{
+    word-spacing: 129px;   
+}
+.space-2{
+    word-spacing: 111px;   
+}
+.space-3{
+    word-spacing: 160px;  
+}
+.space-4{
+    word-spacing: 100px;   
+}
+.space-5 {
+    word-spacing: 105px;   
+}
+.slidebar{
+    margin-left: 10%;    
+}
+.slidebar h2{
+    margin-bottom: 10px;
+    margin-left: -100px;    
+}
+.another-aside {
+    margin-top: -80px;
+}
+.another-aside h2{
+    margin-top:150px;
+    margin-left: -100px;
+
+}
+.another-aside img{
+    width: 90%;
+    margin-left: -40px;
+
+} 
+.another-aside h4{
+    margin-left: -40px;
+    width: 90%; 
+}
+.lebel{
+    display: flex;
+}
+.indent{
+    text-indent:20px;
+}
+.lebel{
+    width: 47%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-image: linear-gradient(to right,tomato, rgb(236, 153, 141));
+    padding-left: 30px;
+    border-radius: 20px;
+    position: relative;
+    left: 200px;
+    top: -25px;
+}
+.popular-lebel{
+    width: 48%;
+    position: relative;
+    left: 50px;
+    top: -25px;   
+}
+.card-button a{
+    padding: 15px 40px;
+    font-size: 17px;
+}
+.website-button a:hover{
+
+    color: tomato; 
+    border-radius: 30px;
+    border: 2px solid tomato;
+    padding: 15px 40px;
+    border: 5px solid tomato;
+    background: transparent;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+
+/* ---x---x---x----x----x---x-----blog-section-end--x---x---x----x----x-----x---x---*/
+
+
 /* ---x---x---x----x----x---x----x main-section-end--x---x---x----x----x-----x---x---*/
+
+
+/* -------------------------------footer-section-start------------------------------- */
+
+#footer-section{
+    margin-top: 7%;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+}
+.foooter-info h1,p{
+    text-align: center;
+     padding-top: 10px;
+
+}
+
+.footer-icon{
+   position: relative;
+   left: 445px;
+   margin-top: 50px;
+}
+.fab{
+    font-size: 20px;
+    color:white;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.fa-facebook-f:hover{
+    color:#3f729b;
+    transition: 0.5s ease-in-out;
+}
+.fa-instagram:hover{
+    color: #D94C4C;
+    transition: 0.5s ease-in-out;
+}
+.fa-twitter:hover{
+    color:#3f729b;
+    transition: 0.5s ease-in-out;
+}
+.fa-youtube:hover{
+    color: red;
+    transition: 0.5s ease-in-out;
+}
+
+/* ---x---x---x----x----x---x----footer-section-end--x---x---x----x----x-----x---x---*/
+
