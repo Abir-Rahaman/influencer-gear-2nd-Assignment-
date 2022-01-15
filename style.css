@@ -411,7 +411,7 @@ body{
     }
     .website-button a{
         padding: 10px 20px;
-        font-size: 7px;
+        font-size: 6px;
         
     }
     .fas.fa-arrow-right{
@@ -593,7 +593,7 @@ body{
             left: 270px;
             width: 100%;
             align-items: center;
-            font-size: 7px;
+            font-size: 6px;
         }
         .website-button a{
             padding: 10px 20px;
