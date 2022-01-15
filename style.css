@@ -1,3 +1,4 @@
+
 /*--------------- google-fots-link ----------------*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@500&family=Raleway:wght@100&family=Roboto+Slab&family=Ubuntu:ital@1&display=swap');
 
@@ -10,6 +11,9 @@ a{
     padding: 0%;
     margin: 0%;
     font-family: 'Roboto Slab', serif;
+}
+body{
+    overflow-x: hidden;
 }
 .tomato{
     color: tomato;
@@ -355,3 +359,284 @@ a{
 
 /* ---x---x---x----x----x---x----footer-section-end--x---x---x----x----x-----x---x---*/
 
+
+@media only screen and (max-width:768px){
+    html{
+        overflow-x:hidden;
+    }
+    
+    body {
+      background-color: lightblue;
+      
+    }
+    .header-name h1{
+        font-size: 25px;
+        overflow-x: hidden;
+    }
+    .header-item{
+        display: none;
+    }
+    .header-text h1{
+        font-size: 25px;
+        align-items: center;
+        position: relative;
+        left:100px;
+        justify-content: center;
+        
+    }
+    .header-text p{
+        font-size: 15px;
+        align-items: center;
+        position: relative;
+        left: 50px;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 300%;
+        width: 200%;
+        
+    }
+    .header-image img{
+        width: 80%;
+        position: relative;
+        left: -65px;
+        top: 200px;
+    }
+    .website-button{
+        padding: 10px;
+        position: relative;
+        left: 100px;
+        width: 100%;
+        align-items: center;
+        font-size: 7px;
+    }
+    .website-button a{
+        padding: 10px 20px;
+        font-size: 7px;
+        
+    }
+    .fas.fa-arrow-right{
+        display: none;
+    }
+    .sponsorship-tag-section{
+        display: none;
+    }
+
+    .full-section h1{
+        font-size: 25px;
+        text-align: center;
+        position: relative;
+        right: 40px;
+    }
+    .full-catagory-sction{
+        
+       display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+        width: 130%;
+
+    }
+    #blog-section{
+        display: none;
+    }
+    #footer-section{
+        width: 120%;
+        position: relative;
+        right: 35px;
+    }
+    .foooter-info h1{
+        font-size: 15px;
+    }
+    .foooter-info p{
+        font-size: 10px;
+    }
+
+}
+
+  
+@media screen and (min-width:769px) and (max-width:992px){
+    html{
+        overflow-x:hidden;
+    }
+   
+    body {
+      background-color: lightblue;
+      
+    }
+    .header-name h1{
+        font-size: 45px;
+        overflow-x: hidden;
+    }
+    .header-item{
+        display: none;
+    }
+    .header-text h1{
+        font-size: 42px;
+        align-items: center;
+        position: relative;
+        left: 270px;
+        justify-content: center;
+    } 
+    .header-text p{
+        font-size: 35px;
+        align-items: center;
+        position: relative;
+        left: 130px;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 300%;
+        width: 200%;
+        
+    }
+    .header-image img{
+        width: 110%;
+        position: relative;
+        left: -195px;
+        top: 200px;
+    }
+    .website-button{
+        padding: 10px;
+        position: relative;
+        left: 270px;
+        width: 100%;
+        align-items: center;
+        font-size: 7px;
+    }
+    .website-button a{
+        padding: 10px 20px;
+        font-size: 20px;
+        
+    }
+    .fas.fa-arrow-right{
+        display: none;
+    }
+    .sponsorship-tag-section{
+        display: none;
+    }
+
+    .full-section h1{
+        font-size: 45px;
+        text-align: center;
+        position: relative;
+        right: 5px;
+    }
+    .full-catagory-sction{
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 50px;
+        width: 110%;
+
+    }
+    #blog-section{
+        display: none;
+    }
+    #footer-section{
+        width: 103%;
+        position: relative;
+        left: -9px;
+    
+    }
+    .foooter-info h1{
+        font-size: 35px;
+    }
+    .foooter-info p{
+        font-size: 20px;
+    }
+    
+    
+  }
+
+
+  @media screen and (min-width:993px) and (max-width:1312px){ 
+    html{
+        overflow-x:hidden;
+    }
+       
+        body {
+          background-color: lightblue;
+          
+        }
+        .header-name h1{
+            font-size: 45px;
+            overflow-x: hidden;
+        }
+        .header-item{
+            display: none;
+        }
+        .header-text h1{
+            font-size: 42px;
+            align-items: center;
+            position: relative;
+            left: 270px;
+            justify-content: center;
+        } 
+        .header-text p{
+            font-size: 35px;
+            align-items: center;
+            position: relative;
+            left: 130px;
+            justify-content: center;
+            text-align: justify;
+            margin-top: 300%;
+            width: 200%;
+            
+        }
+        .header-image img{
+            width: 110%;
+            position: relative;
+            left: -195px;
+            top: 200px;
+        }
+        .website-button{
+            padding: 10px;
+            position: relative;
+            left: 270px;
+            width: 100%;
+            align-items: center;
+            font-size: 7px;
+        }
+        .website-button a{
+            padding: 10px 20px;
+            font-size: 20px;
+            
+        }
+        .fas.fa-arrow-right{
+            display: none;
+        }
+        .sponsorship-tag-section{
+            display: none;
+        }
+    
+        .full-section h1{
+            font-size: 45px;
+            text-align: center;
+            position: relative;
+            right: 5px;
+        }
+        .full-catagory-sction{
+            
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-row-gap: 50px;
+            width: 110%;
+    
+        }
+        #blog-section{
+            display: none;
+        }
+    
+        #footer-section{
+            width: 103%;
+            position: relative;
+            left: -9px;
+        
+        }
+        .foooter-info h1{
+            font-size: 35px;
+        }
+        .foooter-info p{
+            font-size: 40px;
+        }
+        
+        
+}
